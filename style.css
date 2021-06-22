@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.sl1 p {
+  background: rgba(133, 129, 129, 0.315);
+  border-radius: 15px;
+}
+.s1 {
+  background: url(./IMG/c1.jpg);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 50px;
+}
+
+.s1 h1 {
+  font-size: 3rem;
+  background: linear-gradient(45deg, #ada6a6, #000000);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  /* display: inline-block; */
+  margin-bottom: 30px;
+}
+p {
+  color: rgb(0, 0, 0);
+  font-size: 2.5em;
+  display: inline;
+  padding: 5px 10px;
+}
+
+.s2 {
+  background: url(./IMG/c2.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 50px;
+}
+.s2 h1 {
+  font-size: 3rem;
+  background: linear-gradient(45deg, #000000a4, #ada6a6);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  /* display: inline-block; */
+  margin-bottom: 30px;
+}
+
+.s3 {
+  background: url(./IMG/c3.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 50px;
+}
+.s3 h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: #1a17176e;
+  margin-bottom: 130px;
+}
+
+.s4 {
+  background: url(./IMG/c4.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 50px;
+}
+.s4 h1 {
+  font-size: 3rem;
+  text-align: center;
+  background: linear-gradient(45deg, #000000a4, #ada6a6);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 30px;
+}
+
+button {
+  width: 20%;
+  font-size: 20px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.712);
+  color: rgba(0, 0, 0, 0.521);
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  display: block;
+  margin: 0 auto;
+}
+button:hover {
+  color: rgba(255, 255, 255, 0.712);
+  background: rgba(0, 0, 0, 0.521);
+}
+
+/* styling tool tip */
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  background: #000;
+}
+
+/* tooltip menu */
+#fp-nav ul li .fp-tooltip {
+  color: #000;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+/* slidenav side */
+.fp-slidesNav.fp-top {
+  position: absolute;
+  top: 75%;
+  left: 40px !important;
+}
